@@ -1,0 +1,40 @@
+header {
+  position: fixed;
+  width: 100%;
+  background: var(--Tint-blue, #1C1E53);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-page {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.header-page nav {
+  display: flex;
+  gap: 30px;
+  padding-left: 100px;
+}
+
+.header-page nav a {
+  text-decoration: none;
+  color: var(--White, #FFF);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.header-page button {
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.20);
+  color: var(--White, #FFF);
+  font-size: 16px;
+  font-style: normal;
+  padding: 8px 28px;
+  font-weight: 500;
+  line-height: 28px;
+  background: #FCD980;
+}
